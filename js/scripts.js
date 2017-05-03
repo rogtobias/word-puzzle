@@ -10,6 +10,11 @@ $(document).ready(function(event) {
 
       for (var i = 0; i < originalSentence.length; i++) {
         characterArray.push(originalSentence[i]);
+        var arrayToSearch = ["A", "E", "I", "O", "U", "a", "e", "i", "o", "u"];
+
+        if (arrayToSearch.indexOf(characterArray[i]) > -1) {
+          console.log(16);
+        }
       }
     }
 
